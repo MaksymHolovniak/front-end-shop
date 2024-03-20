@@ -1,0 +1,25 @@
+.user {
+    width: 201px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    width: 135px;
+}
+
+.userIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.userName {
+    padding-left: 10px;
+    font-size: 16px;
+}
