@@ -24,7 +24,17 @@ function App() {
                           defaultColor: '#000',
                           boxShadow: 'none',
                           defaultShadow: 'none',
+
                       },
+                      Input: {
+                          activeBorderColor: '#70C05B',
+                          hoverBorderColor: '#70C05B'
+                      },
+                      Select: {
+                          multipleItemBorderColor: '#70C05B',
+                          multipleItemBorderColorDisabled: '#70C05B',
+                          multipleItemColorDisabled: '#70C05B'
+                      }
                   },
               }}
           >

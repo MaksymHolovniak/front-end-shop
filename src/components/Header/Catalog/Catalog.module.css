@@ -29,14 +29,17 @@
 }
 
 .inputSearch {
-    padding: 8px;
     width: 374px;
     height: 40px;
     border-radius: 4px;
     font-size: 16px;
     font-family: Rubik, sans-serif;
-    border: 1px solid #70C05B;
 }
+
+.inputSearch:hover {
+    border: 1px solid
+}
+
 
 .buttonText {
     width: 92px;
