@@ -10,7 +10,7 @@ const Catalog:FC = () => {
     const [options, setOptions] = React.useState<DefaultOptionType[]>([]);
     const handleSearch = (value: string) => {
         setOptions(() => {
-            if (!value || value.includes('@')) {
+            if (!value) {
                 return [];
             }
             return ['Молоко', 'Коктейль молочный', 'Йогурт молочный'].map<DefaultOptionType>((domain) => ({

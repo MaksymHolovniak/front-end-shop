@@ -1,6 +1,8 @@
 .content {
+    max-width: 1208px;
+    margin: 0 auto;
     font-size: 12px;
-    padding: 8px 0;
+    padding: 12px 0;
     display: flex;
     column-gap: 40px;
     align-items: center;
