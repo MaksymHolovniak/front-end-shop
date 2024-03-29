@@ -1,11 +1,11 @@
 import s from './PromotionItem.module.css'
 import PromotionProductImg1 from './../../../../assets/PromotionProductImg1.png'
 import {Rate} from "antd";
-import starRatting from './../../../../assets/icons/starRatting.png'
-const PromotionItem = () => {
+import {FC} from "react";
+const PromotionItem:FC = () => {
     return (
         <div className={s.content}>
-            <div>
+            <div className={s.promotionImg}>
                 <img src={PromotionProductImg1} alt='ProductImg'/>
             </div>
             <div className={s.description}>
@@ -15,12 +15,14 @@ const PromotionItem = () => {
                 </div>
                 <div className={s.descriptionText}>
                     <p>Г/Ц Блинчики с мясом вес, Россия</p>
-                    <Rate disabled defaultValue={2} character={<img src={starRatting} alt={'starRatting'} />} className={s.ratting} />
+                    <Rate disabled defaultValue={2} className={s.ratting} style={{color: '#FF6633'}} />
                 </div>
                 <button className={s.basketButton}>В корзину</button>
                 </div>
             </div>
     )
 }
+
+
 
 export default PromotionItem
